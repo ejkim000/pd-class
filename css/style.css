@@ -47,6 +47,7 @@ img {
     position: fixed;
     top: 0;
     padding: 0 30px;
+    z-index: 20 !important;
     /* transition: 0.5s; */
 }
 
