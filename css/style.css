@@ -22,10 +22,11 @@ a {
     text-decoration: none;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-weight: 300;
     line-height: 1.2;
 }
+
 
 p {
     margin: 10px 0;
@@ -110,10 +111,15 @@ img {
     margin-bottom: 40px;
 }
 
+.hero .content h2 {
+    font-size: 44px;
+    margin: 30px 0;
+}
+
 .hero .content p {
-    font-size: 22px;
-    max-width: 900px;
-    margin: 20px 0 30px;
+    font-size: 1.25em;
+    max-width: 1200px;
+    margin: 20px 0;
 }
 
 .hero::before {
