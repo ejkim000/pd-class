@@ -94,7 +94,7 @@ img {
     height: 100vh;
     position: relative;
     color: #fff;
-    padding-top: 8vh;
+    padding-top: 6vh;
 }
 
 .hero .content {
@@ -103,7 +103,7 @@ img {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 84vh;
+    height: 88vh;
     padding: 0 20px;
     max-width: 1200px;
     margin: 0px auto;
