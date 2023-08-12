@@ -67,7 +67,6 @@ img {
     border-bottom: #28a745 2px solid;
 }
 
-
 .navbar .logo {
     font-weight: 600;
     display: flex;
@@ -86,7 +85,6 @@ img {
 .logo span {
     font-weight: 500;
 }
-
 
 /* hero / header */
 .hero {
@@ -192,6 +190,7 @@ img {
 }
 
 
+
 /* footer */
 .footer {
     display: flex;
@@ -201,4 +200,71 @@ img {
     text-align: center;
     height: 100px;
     background-color: #28a745;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+
+    h2 {
+        font-size: 6vw;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 10px 0;
+        width: 100vw;
+    }
+    
+    .navbar .logo {
+        padding: 10px 0;
+    }
+
+    .section-header {
+        padding: 20px 10px;
+    }
+
+    .section-header h2 {
+        font-size: 7vw;
+        margin: 20px 0;
+    }
+
+    .team img {
+        height: 60vw;
+        width: 60vw;
+    }
+
+    .icons {
+        padding: 30px;
+    }
+    .icons h3 {
+        font-size: 6vw;
+        margin: 20px 10px;
+        text-align: left;
+        line-height: 2;
+    }
+
+    .hero {
+        background: url('../images/sunflower-bg.jpg') no-repeat center center/cover;
+        height: 130vh;
+        padding-top: 5vh;
+    }
+    
+    .hero .content {
+        height: 120vh;
+    }
+    .hero .content h1 {
+        font-size: 11vw;
+    }
+
+    .hero .content h2 {
+        font-size: 7vw;
+    }
+
+    .hero .content p {
+        font-size:4vw;
+        margin: 12px 0;
+        line-height: 1.5;
+    }
 }
