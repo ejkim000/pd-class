@@ -204,8 +204,6 @@ img {
 
 @media only screen and (max-width: 768px) {
 
-
-
     h2 {
         font-size: 6vw;
     }
@@ -231,18 +229,18 @@ img {
     }
 
     .team img {
-        height: 60vw;
-        width: 60vw;
+        height: 55vw;
+        width: 55vw;
     }
 
     .icons {
         padding: 30px;
     }
     .icons h3 {
-        font-size: 6vw;
+        font-size: 5vw;
         margin: 20px 10px;
         text-align: left;
-        line-height: 2;
+        line-height: 2.5;
     }
 
     .hero {
